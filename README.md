@@ -36,13 +36,13 @@
 
 </div>
 
-## Proyectos destacados
+### Proyectos destacados
 
 <!-- PROYECTOS:INICIO -->
 > Aún no hay proyectos públicos. En cuanto publiques el primero, aparecerá aquí automáticamente.
 <!-- PROYECTOS:FIN -->
 
-## Contacto
+### Contacto
 
 <div align="center">
 
