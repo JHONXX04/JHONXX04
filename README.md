@@ -1,24 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=JHONXX04&fontSize=76&fontColor=ffffff&fontAlignY=38&desc=Ingeniero%20de%20Sistemas&descAlignY=60&descSize=20&animation=fadeIn" alt="JHONXX04" />
+<img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/banner.svg" alt="Jhon de Jesús Ortega Pérez" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=38&duration=3400&pause=1100&color=36BCF7&center=true&vCenter=true&width=900&height=90&lines=Dise%C3%B1ando+sistemas+con+l%C3%B3gica+y+visi%C3%B3n;El+conocimiento+se+convierte+en+raz%C3%B3n;Aprender+y+construir+cada+d%C3%ADa" alt="Presentación" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=34&duration=2800&pause=800&color=36BCF7&center=true&vCenter=true&width=1000&height=80&lines=Ingeniero+de+Sistemas;Dise%C3%B1ando+sistemas+con+l%C3%B3gica+y+visi%C3%B3n;El+conocimiento+termina+en+la+raz%C3%B3n;Aprender+y+construir+cada+d%C3%ADa" alt="Presentación" />
 
 <img src="https://komarev.com/ghpvc/?username=JHONXX04&label=Visitas%20al%20perfil&color=36BCF7&style=flat-square" alt="Visitas al perfil" />
 
 </div>
-
----
-
-## Sobre mí
-
-**Ingeniero de Sistemas**
-
-> «El verdadero conocimiento nace en el pensamiento, pasa por el entendimiento y termina en la razón.»
-
-**Dato curioso:** el mejor código es el que se entiende seis meses después.
-
----
 
 ## Tecnologías y herramientas
 
@@ -46,8 +34,6 @@
 
 </div>
 
----
-
 ## Estadísticas
 
 <div align="center">
@@ -64,26 +50,22 @@
 
 </div>
 
----
-
 ## Proyectos destacados
 
 <!-- PROYECTOS:INICIO -->
 > Aún no hay proyectos públicos. En cuanto publiques el primero, aparecerá aquí automáticamente.
 <!-- PROYECTOS:FIN -->
 
----
-
 ## Contacto
 
 <div align="center">
 
-[![Correo](https://img.shields.io/badge/Correo-jhon040207@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jhon040207@gmail.com)
+[![Enviar correo](https://img.shields.io/badge/Enviar_correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jhon040207@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-JHONXX04-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JHONXX04)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/onda.svg" alt="" />
 
 <!--
   ============================================================

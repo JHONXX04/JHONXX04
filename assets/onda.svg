@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Onda decorativa">
+  <defs>
+    <linearGradient id="onda1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#2c5364"/>
+      <stop offset="1" stop-color="#36bcf7"/>
+    </linearGradient>
+    <linearGradient id="onda2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36bcf7"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#0f2027"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.45">
+    <path fill="url(#onda1)" d="M0,80 C150,40 300,120 450,80 C600,40 750,120 900,80 C1050,40 1200,120 1350,80 C1500,40 1650,120 1800,80 L1800,140 L0,140 Z">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-450,0" dur="14s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.75">
+    <path fill="url(#onda2)" d="M0,100 C150,60 300,140 450,100 C600,60 750,140 900,100 C1050,60 1200,140 1350,100 C1500,60 1650,140 1800,100 L1800,140 L0,140 Z">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-450,0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
