@@ -2,6 +2,8 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/banner.svg" alt="Jhon de Jesús Ortega Pérez" />
 
+<img src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/perfil.png" width="170" alt="Jhon de Jesús Ortega Pérez" />
+
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=34&duration=2800&pause=800&color=36BCF7&center=true&vCenter=true&width=1000&height=80&lines=Ingeniero+de+Sistemas;Dise%C3%B1ando+sistemas+con+l%C3%B3gica+y+visi%C3%B3n;El+conocimiento+termina+en+la+raz%C3%B3n;Aprender+y+construir+cada+d%C3%ADa" alt="Presentación" />
 
 <img src="https://komarev.com/ghpvc/?username=JHONXX04&label=Visitas%20al%20perfil&color=36BCF7&style=flat-square" alt="Visitas al perfil" />
@@ -14,7 +16,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;&nbsp;![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;&nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;&nbsp;![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;&nbsp;![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;&nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;&nbsp;![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;&nbsp;![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;&nbsp;![Manejo de IA](https://img.shields.io/badge/Manejo_de_IA-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;&nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)&nbsp;&nbsp;![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)&nbsp;&nbsp;![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;&nbsp;![Manejo de IA](https://img.shields.io/badge/Manejo_de_IA-412991?style=for-the-badge&logo=googlegemini&logoColor=white)
 
 </div>
 
@@ -52,13 +54,6 @@
 <img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/onda.svg" alt="" />
 
 <!--
-  ============================================================
-  TU FOTO DE PERFIL (la subes tú)
-  ------------------------------------------------------------
-  Sube tu imagen al repositorio como "perfil.png" y descomenta:
-
-  <img src="./perfil.png" alt="Foto de perfil" width="160"
-       style="border-radius: 50%;" />
-
-  ============================================================
+  Para cambiar tu foto: reemplaza el archivo assets/perfil.png
+  por otra imagen con el mismo nombre (mientras más cuadrada, mejor).
 -->

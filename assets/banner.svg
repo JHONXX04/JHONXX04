@@ -1,64 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Jhon de Jesús Ortega Pérez">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jhon de Jesús Ortega Pérez">
   <defs>
     <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f2027"/>
-      <stop offset="0.5" stop-color="#203a43"/>
-      <stop offset="1" stop-color="#2c5364"/>
-      <animate attributeName="x1" values="0;1;0" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="0;1;0" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;0;1" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="1;0;1" dur="14s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#0b1a20"/>
+      <stop offset="0.5" stop-color="#17323c"/>
+      <stop offset="1" stop-color="#1f4a5c"/>
+      <animate attributeName="x1" values="0;1;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;1;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="halo1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#36bcf7" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#36bcf7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="halo2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7f5af0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7f5af0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="color" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36bcf7"/>
+      <stop offset="0.5" stop-color="#7f5af0"/>
+      <stop offset="1" stop-color="#36bcf7"/>
+      <animate attributeName="x1" values="-0.8;0.2" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.2;1.2" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="brillo" x1="-1" y1="0" x2="0" y2="0">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#9fe3ff" stop-opacity="0.95"/>
-      <stop offset="0.55" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-      <animate attributeName="x1" values="-1;1.4" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;2.4" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="-1;1.6" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2.6" dur="4s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#36bcf7" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#36bcf7" stop-opacity="0"/>
-    </radialGradient>
-
-    <filter id="difuso" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="22"/>
+    <filter id="difuso" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#fondo)"/>
+  <rect width="1200" height="320" fill="url(#fondo)"/>
 
-  <ellipse cx="420" cy="150" rx="420" ry="150" fill="url(#halo)" filter="url(#difuso)">
-    <animate attributeName="cx" values="380;820;380" dur="16s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="9s" repeatCount="indefinite"/>
+  <ellipse cx="360" cy="140" rx="380" ry="150" fill="url(#halo1)" filter="url(#difuso)">
+    <animate attributeName="cx" values="300;860;300" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="120;200;120" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="7s" repeatCount="indefinite"/>
   </ellipse>
 
-  <g fill="#7fd4ff">
-    <circle cx="180" cy="90" r="2.5" opacity="0.7">
-      <animate attributeName="cy" values="90;70;90" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="7s" repeatCount="indefinite"/>
+  <ellipse cx="840" cy="190" rx="340" ry="140" fill="url(#halo2)" filter="url(#difuso)">
+    <animate attributeName="cx" values="880;340;880" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200;110;200" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g opacity="0.35" transform="translate(600,155)">
+    <circle r="150" fill="none" stroke="#36bcf7" stroke-width="1.5" stroke-dasharray="4 18" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1010" cy="200" r="3" opacity="0.6">
-      <animate attributeName="cy" values="200;170;200" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.7;0.15" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="300" cy="235" r="2" opacity="0.5">
-      <animate attributeName="cy" values="235;215;235" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="880" cy="70" r="2" opacity="0.5">
-      <animate attributeName="cy" values="70;50;70" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="8s" repeatCount="indefinite"/>
+    <circle r="205" fill="none" stroke="#7f5af0" stroke-width="1.2" stroke-dasharray="3 26" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <text x="600" y="138" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="0.5">Jhon de Jesús Ortega Pérez</text>
-  <text x="600" y="138" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="url(#brillo)" letter-spacing="0.5">Jhon de Jesús Ortega Pérez</text>
+  <g opacity="0.06">
+    <rect x="-420" y="-180" width="180" height="700" fill="#ffffff" transform="rotate(20 600 160)">
+      <animate attributeName="x" values="-420;1420" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <text x="600" y="188" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8ecae6" letter-spacing="4">@JHONXX04</text>
-  <text x="600" y="222" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#a8c7d8" letter-spacing="2">INGENIERO DE SISTEMAS</text>
+  <g fill="#57c7e8" font-family="Consolas, Menlo, monospace" font-size="26" opacity="0.22">
+    <text x="120" y="105">&lt;/&gt;
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-16;0,0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="1030" y="120">{ }
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="7.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.45;0.1" dur="7.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="215" y="265">#
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="960" y="265">01
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-18;0,0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="420" y="70">;
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g fill="#7fd4ff">
+    <circle cx="180" cy="90" r="2.5">
+      <animate attributeName="cy" values="90;66;90" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="205" r="3">
+      <animate attributeName="cy" values="205;170;205" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="235" r="2">
+      <animate attributeName="cy" values="235;210;235" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="75" r="2">
+      <animate attributeName="cy" values="75;50;75" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="740" cy="255" r="2.5">
+      <animate attributeName="cy" values="255;228;255" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.55;0.1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <ellipse cx="600" cy="145" rx="330" ry="60" fill="url(#halo1)" filter="url(#difuso)">
+    <animate attributeName="opacity" values="0.35;0.8;0.35" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="5s" repeatCount="indefinite"/>
+
+    <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff" letter-spacing="0.5">Jhon de Jesús Ortega Pérez</text>
+    <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="url(#color)" opacity="0.55" letter-spacing="0.5">Jhon de Jesús Ortega Pérez</text>
+    <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="url(#brillo)" opacity="0.85" letter-spacing="0.5">Jhon de Jesús Ortega Pérez</text>
+  </g>
+
+  <rect x="390" y="160" width="420" height="3" rx="1.5" fill="#36bcf7" opacity="0.9">
+    <animate attributeName="width" values="60;420;60" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="570;390;570" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="205" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8ecae6" letter-spacing="4">@JHONXX04</text>
+  <text x="600" y="240" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#a8c7d8" letter-spacing="2">INGENIERO DE SISTEMAS</text>
 </svg>
