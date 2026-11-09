@@ -47,12 +47,18 @@ actualmente: Mejorando mis bases de programación y Git
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=JHONXX04&show_icons=true&theme=tokyonight&hide_border=true&locale=es&count_private=true" alt="Estadísticas de GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JHONXX04&layout=compact&theme=tokyonight&hide_border=true&locale=es" alt="Lenguajes más usados" />
+![Seguidores](https://img.shields.io/github/followers/JHONXX04?label=Seguidores&style=for-the-badge&color=36BCF7&logo=github)
+![Repositorios](https://img.shields.io/github/repos/JHONXX04?label=Repositorios&style=for-the-badge&color=blue&logo=github)
+![Estrellas](https://img.shields.io/github/stars/JHONXX04?label=Estrellas&style=for-the-badge&color=F7DF1E&logo=github)
+
+<br /><br />
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JHONXX04&theme=tokyonight" alt="Resumen del perfil" />
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JHONXX04&theme=tokyonight" alt="Lenguajes por repositorio" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JHONXX04&theme=tokyonight" alt="Lenguajes con más commits" />
 
 <img src="https://streak-stats.demolab.com?user=JHONXX04&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JHONXX04&theme=tokyo-night&hide_border=true&area=true" alt="Gráfico de actividad" />
 
 </div>
 
