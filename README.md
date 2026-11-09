@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/banner.svg" alt="Jhon de Jesús Ortega Pérez" />
 
-<img src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/perfil.png" width="170" alt="Jhon de Jesús Ortega Pérez" />
+<img src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/perfil-jhon.png" width="170" alt="Jhon de Jesús Ortega Pérez" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=34&duration=2800&pause=800&color=36BCF7&center=true&vCenter=true&width=1000&height=80&lines=Ingeniero+de+Sistemas;Dise%C3%B1ando+sistemas+con+l%C3%B3gica+y+visi%C3%B3n;El+conocimiento+termina+en+la+raz%C3%B3n;Aprender+y+construir+cada+d%C3%ADa" alt="Presentación" />
 
@@ -54,6 +54,6 @@
 <img width="100%" src="https://raw.githubusercontent.com/JHONXX04/JHONXX04/main/assets/onda.svg" alt="" />
 
 <!--
-  Para cambiar tu foto: reemplaza el archivo assets/perfil.png
+  Para cambiar tu foto: reemplaza el archivo assets/perfil-jhon.png
   por otra imagen con el mismo nombre (mientras más cuadrada, mejor).
 -->
